@@ -11,6 +11,11 @@ gcloud auth login
 ```
 Then follow the prompts.
 
+* To view your projects run
+```bash
+gcloud config list project
+```
+
 * Then set your project as default by running
 ```bash
 gcloud config set project your-project-id
